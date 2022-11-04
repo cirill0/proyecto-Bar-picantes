@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Te abrimos las puertas de nuestro hogar y te guardamos un lugar en nuestra mesa con el mejor servicio que te podemos ofrecer. 
+    solo completa el formulario y elegi el lugar que mas te guste">
+    <meta name="keywords" content="reservas, datos personales, seleccion de la mesa">
+    <title>sabores:rotiseria</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="container-fluid barra">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-light barraDeMenu">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"> <a href="../index.html"><img src="../fotos/logo de pagina.png"
+                                    alt="logo"></a></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 contenedorMenu">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html"> <button
+                                            type="button" class="btn btn-outline-warning">inicio</button></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../paginasWeb/ubicacion.html">
+                                        <button type="button" class="btn btn-outline-warning">Ubicacion</button></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="../paginasWeb/menuDigital.html">
+                                        <button type="button" class="btn btn-outline-warning">Menu digital</button></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="../paginasWeb/reserva.html"><button type="button"
+                                            class="btn btn-outline-warning">Reserva</button></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="../paginasWeb/quienesSomos.html"><button type="button"
+                                            class="btn btn-outline-warning">¿Quienes somos?</button></a>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-outline-secondary">perfil</button>
+                                    <button type="button" class="btn btn-outline-secondary">iniciar sesion</button>
+                                    <button type="button" class="btn btn-outline-secondary">registrarse</button>
+                                </li>
+                            </ul>
+                            <aside class="buscador">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button type="button" class="btn btn-outline-danger">Buscar</button></button>
+                                </form>
+                            </aside>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <hr>
+
+    <h2 class="tituloRes">Datos del cliente</h2>
+    <form class="form">
+
+        <img src="../fotos/calabera.png" alt="calabera" class="calabera">
+
+        <div class="campos">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre:" size="13" name="nombre" id="nombre"
+                class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <label for="apellido">apellido: </label>
+            <input type="text" placeholder="Ingrese su apellido:" size="13" name="apellido" id="apellido"
+                class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <label for="telefono">ingrese un numero de telefono: +54</label>
+            <input type="text" placeholder="numero de telefono" name="telefono" id="telefono"
+                class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <label for="integrantes de la mesa">integrantes de la mesa:</label>
+            <input type="number" class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <label for="dia y hora">Dia y horario de la reserva:</label>
+            <input type="datetime-local" class="btn btn-outline-light formulario"><br>
+
+        </div>
+        <div class="campos">
+
+            <label for="datos de la tarjeta<">Numero de tarjeta:</label>
+            <input type="text" placeholder="0000 0000 0000 0000" class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <label for="vencimiento">vencimiento de la tarjeta:</label>
+            <input type="week" class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <label for="codigo de seguridad">codigo de seguridad:</label>
+            <input type="text" placeholder="000" size="1" class="btn btn-outline-light formulario">
+
+        </div>
+        <div class="campos">
+
+            <input type="reset" class="btn btn-outline-light formulario"> <input type="submit"
+                class="btn btn-outline-light formulario">
+
+        </div>
+    </form>
+    <hr>
+
+    <footer>
+
+        <ul>
+            <li>todo lo que encuentres en esta pagina es pura ficcion, nada es real.</li>
+            <li><img src="../fotos/wsp.png" alt="logo de Contacto">(+54)115122-7252</li>
+            <li>seguinos en nuestras redes:</li>
+            <li><img src="../fotos/instagram.png" alt="logo de instagram">@sabores_rotiseria</li>
+            <li><img src="../fotos/fb.png" alt="logo de instagram">sabores:rotiseria</li>
+        </ul>
+
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC:wght@400;700 & display=swap');
+/*nuevo estilo*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------variables-------------------*/
+
+$colorFondo: #a0722c;
+$colorSecundario: #FFC107;
+$colorPrincipal: #661a07;
+$medida1:20px;
+$fuenteUno:'Kalam',
+cursive;
+$fuenteDos: 'Londrina Solid',
+cursive;
+$fuenteTres:'Amatic SC',
+cursiva;
+$fuenteCuatro:'Lobster Two',
+cursiva;
+
+
+
+
+html {
+    font-size: 90%;
+}
+
+body {
+    background-color: $colorFondo;
+}
+
+
+
+/*--------------------------index-----------------------*/
+
+
+/*--------------------------menu hamburguesa----------------------------*/
+
+header {
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+    z-index: +2;
+    text-transform: uppercase;
+    width: 100%;
+    overflow: hidden;
+
+    .barra {
+        padding: 0;
+
+        .barraDeMenu {
+            padding: 0;
+            background-color: $colorPrincipal !important;
+            font-family: $fuenteUno;
+            font-weight: 700;
+
+
+        }
+    }
+
+}
+
+
+.buscador {
+    background-color: $colorSecundario;
+
+    form {
+        margin: 10px;
+
+    }
+
+}
+
+/*cuerpo*/
+.foto1 {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+/*-------------------ubicacion----------------------*/
+
+.listas {
+    list-style-image:
+        url("../fotos/localizacion2.png");
+    list-style-position: inside;
+    margin: 10px 10px 10px 10px;
+    width: 180px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+
+/*----------------contacto--------------------*/
+footer {
+    background-color: $colorPrincipal;
+    color: rgb(246, 246, 246);
+    text-align: right;
+    font-size: 16px;
+    padding-right: 10px;
+    font-family: $fuenteDos;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+    }
+}
+
+
+
+.logos {
+    width: $medida1;
+    height: $medida1;
+}
+
+/*----------------menu digital---------*/
+
+
+
+.contenedorPizza {
+    background-image: url(../fotos/pizzeria.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorPizza:hover {
+    transition: all 3s;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorSandwich {
+
+    background-image: url(../fotos/sanguche.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorSandwich:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorCarneR {
+
+    background-image: url(../fotos/carne\ roja.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorCarneR:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+.contenedorCarneB {
+
+    background-image: url(../fotos/carne\ blanca.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorCarneB:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorPastas {
+
+    background-image: url(../fotos/pasta.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorPastas:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorClasicos {
+
+    background-image: url(../fotos/hamburguesa.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorClasicos:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorSalsas{
+
+    background-image: url(../fotos/salsa.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorSalsas:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorAsados{
+
+    background-image: url(../fotos/asado.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorAsados:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorComidasV{
+
+    background-image: url(../fotos/comida\ v.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorComidasV:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+.contenedorInfantil {
+
+    background-image: url(../fotos/menu.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorInfantil:hover {
+    transition: all 3s;
+    padding: none;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+.contenedorPostre {
+
+    background-image: url(../fotos/postre.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorPostre:hover {
+    transition: all 3s;
+    padding: none;
+    font-family: $fuenteDos;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+.contenedorBebidas {
+
+    background-image: url(../fotos/postre.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorBebidas:hover {
+    transition: all 3s;
+    padding: none;
+    font-family: $fuenteDos;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+
+.contenedorVinos {
+
+    background-image: url(../fotos/vino.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorVinos:hover {
+    transition: all 3s;
+    padding: none;
+    font-family: $fuenteDos;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+.contenedorTragos {
+
+    background-image: url(../fotos/trago.png);
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    transition: all 3s;
+
+    .oculto {
+        display: none;
+        background-color: $colorSecundario;
+    }
+
+}
+
+.contenedorTragos:hover {
+    transition: all 3s;
+    padding: none;
+    font-family: $fuenteDos;
+
+    .oculto {
+        display: block;
+        background-color: $colorSecundario;
+        width: 300px;
+        border-radius: 5px;
+
+    }
+
+    .vista {
+        display: none;
+
+    }
+}
+
+/*
+.contenedorCarta:hover{
+    transition: all 3s;
+    .vista {
+        display: none;
+        transition: all 3s;
+    }
+    .oculta {
+        display: block;
+        transition: all 3s;
+    }
+}
+.vista {
+    display: none;
+    transition: all 3s;
+}
+.oculta {
+    display: block;
+    transition: all 3s;
+}
+
+
+@keyframes transCarta {
+    from {
+        display: none
+    }
+    to {
+        display: block
+    }
+}
+
+@keyframes transCarta2 {
+    from {
+        display: none
+    }
+
+    to {
+        display: block
+    }
+}
+
+.contenedorCarta:hover {
+    .vista {
+        display: block;
+        animation-name: transCarta;
+        animation-duration: 3s;
+    }
+   
+}
+
+.contenedorCarta:hover{
+    .oculta{
+        display: none;
+        animation-name: transCarta2;
+        animation-duration: 3s;
+    }
+}
+
+*/
+
+/*-----------------reserva------------------*/
+
+.calabera {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+
+}
+
+
+.tituloRes {
+    margin-left: 50px;
+    font-family: $fuenteDos;
+}
+
+
+.form {
+    margin: 5px 20%;
+    background-color: $colorSecundario;
+    width: 60%;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+.campos {
+    margin: 5px;
+    ;
+    font-family: $fuenteDos;
+
+}
+
+.formulario {
+    border-radius: 5px;
+    width: 200px !important;
+    margin: 10px;
+}
+
+/*media queris*/
+@media(max-width:600px) {}
