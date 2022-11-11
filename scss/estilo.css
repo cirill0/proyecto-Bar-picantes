@@ -54,6 +54,13 @@ header .barra .barraDeMenu {
 }
 
 /*-------------------ubicacion----------------------*/
+.ubicaciones {
+  display: grid;
+  background-color: rgb(97, 77, 12);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 .listas {
   list-style-image: url("../fotos/localizacion2.png");
   list-style-position: inside;
@@ -100,6 +107,8 @@ footer ul {
 
 .contenedorPizza:hover {
   transition: all 3s;
+  padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorPizza:hover .oculto {
   display: block;
@@ -127,6 +136,7 @@ footer ul {
 .contenedorSandwich:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorSandwich:hover .oculto {
   display: block;
@@ -154,6 +164,7 @@ footer ul {
 .contenedorCarneR:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorCarneR:hover .oculto {
   display: block;
@@ -181,6 +192,7 @@ footer ul {
 .contenedorCarneB:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorCarneB:hover .oculto {
   display: block;
@@ -208,6 +220,7 @@ footer ul {
 .contenedorPastas:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorPastas:hover .oculto {
   display: block;
@@ -235,6 +248,7 @@ footer ul {
 .contenedorClasicos:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorClasicos:hover .oculto {
   display: block;
@@ -262,6 +276,7 @@ footer ul {
 .contenedorSalsas:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorSalsas:hover .oculto {
   display: block;
@@ -289,6 +304,7 @@ footer ul {
 .contenedorAsados:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorAsados:hover .oculto {
   display: block;
@@ -316,6 +332,7 @@ footer ul {
 .contenedorComidasV:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorComidasV:hover .oculto {
   display: block;
@@ -343,6 +360,7 @@ footer ul {
 .contenedorInfantil:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorInfantil:hover .oculto {
   display: block;
@@ -370,6 +388,7 @@ footer ul {
 .contenedorPostre:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorPostre:hover .oculto {
   display: block;
@@ -397,6 +416,7 @@ footer ul {
 .contenedorBebidas:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorBebidas:hover .oculto {
   display: block;
@@ -424,6 +444,7 @@ footer ul {
 .contenedorVinos:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorVinos:hover .oculto {
   display: block;
@@ -451,6 +472,7 @@ footer ul {
 .contenedorTragos:hover {
   transition: all 3s;
   padding: none;
+  font-family: "Londrina Solid", cursive;
 }
 .contenedorTragos:hover .oculto {
   display: block;
@@ -523,9 +545,8 @@ footer ul {
 */
 /*-----------------reserva------------------*/
 .calabera {
-  position: absolute;
-  left: 750px;
-  top: 300px;
+  width: 100%;
+  height: 100%;
 }
 
 .tituloRes {
@@ -535,6 +556,8 @@ footer ul {
 
 .form {
   margin: 5px 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   background-color: #FFC107;
   width: 60%;
   border-radius: 6px;
@@ -546,10 +569,11 @@ footer ul {
   font-family: "Londrina Solid", cursive;
 }
 
+/*
 .formulario {
-  border-radius: 5px;
-  width: 200px !important;
-  margin: 10px;
+    border-radius: 5px;
+    width: 200px !important;
+    margin: 10px;
 }
-
+*/
 /*media queris*//*# sourceMappingURL=estilo.css.map */

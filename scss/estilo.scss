@@ -15,6 +15,8 @@
 $colorFondo: #a0722c;
 $colorSecundario: #FFC107;
 $colorPrincipal: #661a07;
+$colorSecundario2: rgb(227, 195, 157);
+$colorSecundario3: rgb(194, 123, 56);
 $medida1:20px;
 $fuenteUno:'Kalam',
 cursive;
@@ -87,6 +89,16 @@ header {
 
 /*-------------------ubicacion----------------------*/
 
+.ubicaciones{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color:$colorSecundario2;
+    width: 1000px;
+    margin: 10px;
+    }
+
 .listas {
     list-style-image:
         url("../fotos/localizacion2.png");
@@ -94,6 +106,16 @@ header {
     margin: 10px 10px 10px 10px;
     width: 180px;
     padding: 5px 5px 5px 5px;
+
+}
+
+.camposD {
+    margin:none;
+    width: 400px;
+    font-family: $fuenteUno;
+    background-color:  $colorSecundario3;
+    list-style-type: none;
+    border-radius: 5px;
 
 }
 
@@ -144,6 +166,8 @@ footer {
 
 .contenedorPizza:hover {
     transition: all 3s;
+    padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -179,6 +203,7 @@ footer {
 .contenedorSandwich:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -214,6 +239,7 @@ footer {
 .contenedorCarneR:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -248,6 +274,7 @@ footer {
 .contenedorCarneB:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -283,6 +310,7 @@ footer {
 .contenedorPastas:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -318,6 +346,7 @@ footer {
 .contenedorClasicos:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -353,6 +382,7 @@ footer {
 .contenedorSalsas:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -388,6 +418,7 @@ footer {
 .contenedorAsados:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -423,6 +454,7 @@ footer {
 .contenedorComidasV:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -457,6 +489,7 @@ footer {
 .contenedorInfantil:hover {
     transition: all 3s;
     padding: none;
+    font-family: $fuenteDos;
 
     .oculto {
         display: block;
@@ -676,9 +709,9 @@ footer {
 /*-----------------reserva------------------*/
 
 .calabera {
-    position: absolute;
-    left: 750px;
-    top: 300px;
+    width: 47%;
+    height: 70%;
+    margin: auto 0;
 
 }
 
@@ -688,27 +721,24 @@ footer {
     font-family: $fuenteDos;
 }
 
-
-.form {
-    margin: 5px 20%;
+.form{
+    display: flex;
     background-color: $colorSecundario;
-    width: 60%;
-    border-radius: 6px;
-    padding-left: 15px;
+    width: 60vw;
+    height: 70vh;
+    margin-left: 250px;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.campos {
+
+.campos{
     margin: 5px;
-    ;
+    width: 50%;
     font-family: $fuenteDos;
+    
 
 }
-
-.formulario {
-    border-radius: 5px;
-    width: 200px !important;
-    margin: 10px;
-}
-
 /*media queris*/
 @media(max-width:600px) {}
